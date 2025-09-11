@@ -400,8 +400,8 @@ def main():
     seed = 51
     train_ratio = 0.8
     #Model Values
-    hidden_dim = 256
-    latent_dim = 64
+    hidden_dim = 64
+    latent_dim = 16
     #Training Values
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     batch_size = 2
