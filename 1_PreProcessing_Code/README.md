@@ -1,12 +1,14 @@
+# Processing and BLAST scripts
+
 Requires:
 
-dataframes/
+- dataframes/
 
-collection1000/ - Raw assemblies from Enterobase
+- collection1000/ - Raw assemblies from Enterobase
 
-assembled/ - Created by assemble\_code
+- assembled/ - Created by assemble\_code
 
-filtered\_genes/ - Created by gene\_lists
+- filtered\_genes/ - Created by gene\_lists
 
 
 
@@ -21,4 +23,5 @@ gene\_lists.py - Creates list of genes sequences for each 1000 strain. Saves to 
 blast\_code.py - BLAST search using filtered\_genes/ and assembled/. BLAST results for each strain is saved in results/.
 
 esc\_strains.txt - List of strains to be used for search in Enterobase.
+
 
