@@ -1,7 +1,6 @@
 Requires:
-dataframes/
-
-graphs\_final/
+- dataframes/
+- graphs\_final/
 
 
 
@@ -64,4 +63,5 @@ roc.py -
 
 
 f1\_plot.py -
+
 
