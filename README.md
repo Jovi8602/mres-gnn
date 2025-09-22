@@ -40,13 +40,13 @@ Graph Building:
 2) graph_drawing.py using one of any folder in results/ to visualise a graph, saved as PNG.
 3) graph_stats.py to create MDR_graph_stats.pdf, for graph statistic comparison between MDR+ and MDR- genomes. 
 
-Classifiers:
-- Graph
+Graph Classifier:
 1) graph_classifier.py to to train a specified MDR classification model, saved to saved_models/. Training results and metrics are saved as PDF. 
 2) g_classifier_umap.py for graph UMAP projections PNG using specified model, saved as PNG. 
 3) classic_ml.py to train RF and MLP models. Training results are saved as PDF. 
 4) roc.py to produce ROC curves plot, saved as PNG. Requires all 4 MDR GNN models to be first trained. 
-- Node
+
+Node Classifier:
 1) node_classifier.py to to train a specified essentiality classification model, saved to saved_models/. Training results and metrics are saved as PDF. 
 2) n_classifier_umap.py for node UMAP projections using specified model, saved as PNG. 
 
@@ -57,6 +57,7 @@ VGAE:
 
 
 Each subfolder has READMEs of their own to explain what each script does. 
+
 
 
 
