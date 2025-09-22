@@ -27,8 +27,6 @@ project_root/
 - ...
 
 
-Each subfolder has READMEs of their own to explain what each script does. 
-
 General Instructions are provided below. 
 Each section can be run individually, prodivded all external data folders on Google Drive are downloaded. 
 
@@ -57,6 +55,7 @@ VGAE:
 3) vgae_sampling.py to create a synthetic graph, saved as PNG. 
 
 
+Each subfolder has READMEs of their own to explain what each script does. 
 
 
 
